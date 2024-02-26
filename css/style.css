@@ -19,20 +19,14 @@ img{
 }
 
 .container{
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 1100px;
-    /* debug */
-    background-color: aqua;
-    border: 1px solid black;
 }
 
 /* column properties */
 .col{
     width: calc(100% / 3);
-    padding: 10px;
-    /* debug */
-    background-color: blue;
-    max-height: 800px;
+    padding: 20px;
 }
 
 /* card properties */
