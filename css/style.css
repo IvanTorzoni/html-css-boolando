@@ -34,3 +34,80 @@ img{
     background-color: blue;
     max-height: 800px;
 }
+
+/* card properties */
+.card{
+    position: relative;
+}
+
+/* Discount in image */
+.discount{
+    background-color: red;
+}
+
+/* sustainability tag */
+.sustainability{
+    left: 50px;
+    background-color: green;
+}
+
+/* shared properties with discount and tag in the image */
+.discount, .sustainability{
+    position: absolute;
+    bottom: 60px;
+    z-index: 2;
+    color: white;
+    padding: 5px;
+}
+
+/* heart properties */
+.heart{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    z-index: 2;
+    background-color: aliceblue;
+    padding: 10px 15px;
+    font-size: 2em;
+}
+
+.heart:hover{
+    color: red;
+}
+
+/* image displayed */
+.image-displayed{
+    position: relative;
+}
+
+/* image displayed on hover */
+.image-not-displayed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.card:hover .image-not-displayed{
+    display: inline-block;
+    z-index: 1;
+}
+
+/* Name of the product */
+.product-name{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* price after discount */
+.discounted-price{
+font-weight: bold;
+color: red;
+}
+
+/* price before discount */
+.normal-price{
+    font-style: line;
+    text-decoration: line-through;
+}
