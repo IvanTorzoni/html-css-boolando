@@ -14,7 +14,7 @@ ul{
     list-style: none;
 }
 
-li > a{
+.categories li > a{
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -166,4 +166,60 @@ color: red;
 .normal-price{
     font-style: line;
     text-decoration: line-through;
+}
+
+/* FOOTER */
+
+/* footer and container */
+footer{
+    height: 100px;
+    background-color: black;
+}
+
+.footer-container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1100px;
+    align-items: center; 
+    padding: 20px;
+}
+
+/* legal section properties */
+.site-legal-section{
+    width: 50%;
+    color: white;
+}
+
+.social-medias-section h4{
+    margin-bottom: 4px;
+}
+
+.legal-infos li > a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.legal-infos{
+    display: flex;
+    gap: 8px
+}
+
+
+/* social media section properties */
+.social-medias-section{
+    width: 50%;
+    color: white;
+}
+
+
+.movement{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.social-medias{
+    display: flex;
+    gap: 10px;
 }
