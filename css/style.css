@@ -45,6 +45,10 @@ img{
     background-color: green;
 }
 
+.left{
+    left: 0;
+}
+
 /* shared properties with discount and tag in the image */
 .discount, .sustainability{
     position: absolute;
